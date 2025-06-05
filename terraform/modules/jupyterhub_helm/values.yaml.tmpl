@@ -1,0 +1,74 @@
+proxy:
+  secretToken: "${proxy_secret_token}"
+  service:
+    type: ClusterIP
+
+singleuser:
+  extraPodConfig:
+    dnsConfig:
+      searches:
+        - default.svc.cluster.local
+        - svc.cluster.local
+        - cluster.local
+  storage:
+    extraVolumes:
+      - name: shared-storage
+        persistentVolumeClaim:
+          claimName: shared-dataset-pvc
+
+    extraVolumeMounts:
+      - name: shared-storage
+        mountPath: /shared
+        readOnly: false
+ 
+  profileList:
+    - display_name: "CPU Notebook"
+      description: "Standard environment (no GPU)"
+      default: true
+      kubespawner_override:
+        image: jupyter/scipy-notebook:latest
+        cpu_limit: 1
+        mem_limit: 2G
+
+    - display_name: "Direct GPU Access"
+      description: "Notebook with 1x GPU access (RTX 4000)"
+      kubespawner_override:
+        image: jupyter/scipy-notebook:latest
+        cpu_limit: 3
+        mem_limit: 14G
+        extra_resource_limits:
+          nvidia.com/gpu: 1
+        node_selector:
+          accelerator: "nvidia"
+
+cull:
+  enabled: true
+  timeout: 3600
+  every: 300
+
+hub:
+  config:
+    JupyterHub:
+      admin_access: true
+      authenticator_class: github
+      cookie_secret_file: /srv/jupyterhub_cookie_secret
+      cookie_options:
+        sameSite: "None"
+        secure: True
+    Authenticator:
+      admin_users:
+        - ${admin_user}
+        - brandonholcombe
+        - schafferde
+      allowed_users:
+        - brandonholcombe
+      enable_auth_state: true
+    GitHubOAuthenticator:
+      client_id: "${github_client_id}"
+      client_secret: "${github_client_secret}"
+      oauth_callback_url: "https://${subdomain}.${domain}/hub/oauth_callback"
+      orgWhitelist:
+        - your-org-name
+      teamWhitelist:
+        - your-org-name/team-ml101
+        - your-org-name/team-research

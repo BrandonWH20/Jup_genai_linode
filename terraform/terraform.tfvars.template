@@ -1,0 +1,18 @@
+# Rename this file to terraform.tfvars before running Terraform
+
+linode_token   = "CHANGE_ME"                     # Required: Your personal API token from Linode
+institution    = "your-school-or-org"            # e.g., mit, stanford, hs-stem
+project_name   = "genai-lab"                     # e.g., ai-biology, llm-workshop
+region         = "us-sea"                        # Example: us-sea, us-ord, us-iad
+cpu_node_type  = "g6-standard-4"                 # Use 'linode-cli linodes types' to view options
+cpu_node_count = 3                               # Reasonable default for small group testing
+k8s_version    = "1.32"                          # Must match a supported LKE version
+
+domain    = "example.com"     # CHANGE_ME
+subdomain = "jupyter"         # CHANGE_ME
+email     = "your@email.com"  # CHANGE_ME
+namespace = "jhub"            # Change_ME
+
+admin_user           = "YourGitHubUSer"
+github_client_id     = "YourGitHubApp"
+github_client_secret = "GitHubSecret"

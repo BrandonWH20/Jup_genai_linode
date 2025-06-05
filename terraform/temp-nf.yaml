@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nfs-access-pod
+  namespace: jhub
+spec:
+  containers:
+    - name: pvc-client
+      image: busybox
+      command: ["/bin/sh", "-c", "sleep 3600"]
+      volumeMounts:
+        - name: nfs-volume
+          mountPath: /mnt/shared
+  volumes:
+    - name: nfs-volume
+      persistentVolumeClaim:
+        claimName: nfs-data-rwo
+  restartPolicy: Never
+

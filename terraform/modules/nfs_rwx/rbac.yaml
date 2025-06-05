@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: nfs-ip-writer
+  namespace: jhub
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: jhub
+  name: nfs-configmap-writer
+rules:
+  - apiGroups: [""]
+    resources: ["configmaps"]
+    verbs: ["get", "create", "update", "patch", "list"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: nfs-configmap-writer-binding
+  namespace: jhub
+subjects:
+  - kind: ServiceAccount
+    name: nfs-ip-writer
+    namespace: jhub
+roleRef:
+  kind: Role
+  name: nfs-configmap-writer
+  apiGroup: rbac.authorization.k8s.io
+
