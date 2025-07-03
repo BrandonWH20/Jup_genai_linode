@@ -11,15 +11,8 @@ singleuser:
         - svc.cluster.local
         - cluster.local
   storage:
-    extraVolumes:
-      - name: shared-storage
-        persistentVolumeClaim:
-          claimName: shared-dataset-pvc
-
-    extraVolumeMounts:
-      - name: shared-storage
-        mountPath: /shared
-        readOnly: false
+    extraVolumes: []
+    extraVolumeMounts: []
  
   profileList:
     - display_name: "CPU Notebook"
