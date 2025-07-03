@@ -11,6 +11,8 @@ singleuser:
         - svc.cluster.local
         - cluster.local
   storage:
+    dynamic:
+      storageClass: "${storage_class}"
     extraVolumes: []
     extraVolumeMounts: []
  
