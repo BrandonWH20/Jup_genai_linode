@@ -1,0 +1,3594 @@
+{
+  "version": 4,
+  "terraform_version": "1.12.2",
+  "serial": 47,
+  "lineage": "66cb1941-f5a2-3bbe-17f6-38d66baa961c",
+  "outputs": {
+    "kubeconfig_yaml": {
+      "value": "\napiVersion: v1\nkind: Config\npreferences: {}\n\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJWFpMcDdxRWZFYW93RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRBMk1USXdNRE14TVRsYUZ3MHpOVEEyTVRBd01ETTJNVGxhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNuUG9yUnNIaWNFMXhLaC9sRTF2NytzNzFFZStnc2tCSGF0ZlpmeTVUdCtVR1JjNGNuUm5qUnRvajUKWmlrb0I2UHR4SSs0NHhxdXpIR3JnOTJoOWlLaW9ibDJMUE1vdEJBWFpTRXcxY05Pdk9oOWplM250a1I0blJ1VwpqSjFYVFg1QjBNNDhQcjg4YWdUc2tDYlFVTW5sSHI4Z3lOVGl2SVVqdTU2OXZIWmYwcm9CdUgzMkpJQ0NBMEhaCjhQZlV1R24zdGd3VTdmajB0QTRYK295cWhFdHk1UVVaWjJIRkJuWmwvV0dKSzVSSTc3MzYzN0pieDIySnFtVisKYitZNFdoZ1BBSEZPcFhtNFNlWXpzMDJWN3JZek5FY2lvaG0zZk9ON1hXYXZMMjhhcWlMTWVaKzJzSzhXVnBnUApMN1ZoakNFMDZIMllVY1h2RndGelU1MEM3T1dUQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTZzRsNW9IQXRSVHJGVitwYVpRTW1VcFBDZ2FqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQm13OWxHRXg1Zwo1NWplekpWcGFzbGtwTXN5eHdaenZkTWs4alVkamlJTFQwMHY0eXBES2hKeUhlSjRlZ2dNekx2SzRLUkZUbDZnCmN3QVVEQUR3T3h6TjUwYjluc09UbEE3MXF2L0tJQWVQNWVESGlXaUNpNXlzNHdnSFZ5MWd4N1FzWGhVbmZPZVAKOEh5YWw3cVlyMlRRTDBPSUR3RTc1bU9hTWpRR2dIZ0JjMTQ3aUNBQzNFcmhpeEJQV2dTeDVWMC9rZ1ZHVEtUeQowNkpXMkpsWGR0VFVLQ0dTd1FEaEJnZXgzcmtrcjZSeko1dlg0OXpzUEVrZzRYMFBXamRsMnQ3ZkhqN0QwVmprCmdGZHJSZndjd01LaytIcVViTFpXeFN2SWVJSzg2TTdqMWtjWG0vYkUwd0g1aTVFU1E0eVdTY3RLS0hFck9PVVMKVlBvcEM3V0hsVHJ3Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://79ad1b3c-120c-4569-b9b1-b89924066a64.us-ord-5-gw.linodelke.net:443\n  name: lke481078\n\nusers:\n- name: lke481078-admin\n  user:\n    as-user-extra: {}\n    token: eyJhbGciOiJSUzI1NiIsImtpZCI6IlVTT3JhMnlFcEdDQUJHNVpMdEpRa3dDYkFuZnNWOWtRbXFlQjQwN0FvX3MifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlLXN5c3RlbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJsa2UtYWRtaW4tdG9rZW4tY2JuazUiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoibGtlLWFkbWluIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiZTFiMzkwOTMtMzhmMy00YzI0LTg3ZjUtMWQ5YWU5OWYxMjliIiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50Omt1YmUtc3lzdGVtOmxrZS1hZG1pbiJ9.oqldWpw76UKK5WMRj8GtBizJyGroiBBupInL76Ktyi7XbJvIgJNPtRHsifbalmryv31y3rqgpdvdUH3twRKjNaLhCm03RrGd_tTfvm1uYc6YlZ__KCfiCqdJuMhZdoHNudpJSG_g-3jL0pWpjGg68ubp1FSEBm5c6o3sZwFF4U9iwFuyexRFD9zJ-2m8rSFx3LmxLzldYlHdrV1u4MMSRRu2csFBtg4ym8apt9nZXamJhVBS4QPpmz1G8U5kt6zp2ttTZGaLJco1-yubZaLOpkxEFNhu76RijbF9ogiWis9t5AIvhV1RQf_hRlaWcWeho8sDb6LjNQBbzzx9HB9nLA\n\ncontexts:\n- context:\n    cluster: lke481078\n    namespace: default\n    user: lke481078-admin\n  name: lke481078-ctx\n\ncurrent-context: lke481078-ctx\n",
+      "type": "string",
+      "sensitive": true
+    },
+    "region": {
+      "value": "us-ord",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "linode_lke_cluster",
+      "name": "lab_cluster",
+      "provider": "provider[\"registry.terraform.io/linode/linode\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "api_endpoints": [
+              "https://79ad1b3c-120c-4569-b9b1-b89924066a64.us-ord-5-gw.linodelke.net:443",
+              "https://79ad1b3c-120c-4569-b9b1-b89924066a64.us-ord-5-gw.linodelke.net:6443"
+            ],
+            "control_plane": [
+              {
+                "acl": [
+                  {
+                    "addresses": [
+                      {
+                        "ipv4": [],
+                        "ipv6": []
+                      }
+                    ],
+                    "enabled": false
+                  }
+                ],
+                "high_availability": false
+              }
+            ],
+            "dashboard_url": null,
+            "external_pool_tags": null,
+            "id": "481078",
+            "k8s_version": "1.32",
+            "kubeconfig": "CmFwaVZlcnNpb246IHYxCmtpbmQ6IENvbmZpZwpwcmVmZXJlbmNlczoge30KCmNsdXN0ZXJzOgotIGNsdXN0ZXI6CiAgICBjZXJ0aWZpY2F0ZS1hdXRob3JpdHktZGF0YTogTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVUkNWRU5EUVdVeVowRjNTVUpCWjBsSldGcE1jRGR4UldaRllXOTNSRkZaU2t0dldrbG9kbU5PUVZGRlRFSlJRWGRHVkVWVVRVSkZSMEV4VlVVS1FYaE5TMkV6Vm1sYVdFcDFXbGhTYkdONlFXVkdkekI1VGxSQk1rMVVTWGROUkUxNFRWUnNZVVozTUhwT1ZFRXlUVlJCZDAxRVRUSk5WR3hoVFVKVmVBcEZla0ZTUW1kT1ZrSkJUVlJEYlhReFdXMVdlV0p0VmpCYVdFMTNaMmRGYVUxQk1FZERVM0ZIVTBsaU0wUlJSVUpCVVZWQlFUUkpRa1IzUVhkblowVkxDa0Z2U1VKQlVVTnVVRzl5VW5OSWFXTkZNWGhMYUM5c1JURjJOeXR6TnpGRlpTdG5jMnRDU0dGMFpscG1lVFZVZEN0VlIxSmpOR051VW01cVVuUnZhalVLV21scmIwSTJVSFI0U1NzME5IaHhkWHBJUjNKbk9USm9PV2xMYVc5aWJESk1VRTF2ZEVKQldGcFRSWGN4WTA1UGRrOW9PV3BsTTI1MGExSTBibEoxVndwcVNqRllWRmcxUWpCTk5EaFFjamc0WVdkVWMydERZbEZWVFc1c1NISTRaM2xPVkdsMlNWVnFkVFUyT1haSVdtWXdjbTlDZFVnek1rcEpRME5CTUVoYUNqaFFabFYxUjI0emRHZDNWVGRtYWpCMFFUUllLMjk1Y1doRmRIazFVVlZhV2pKSVJrSnVXbXd2VjBkS1N6VlNTVGMzTXpZek4wcGllREl5U25GdFZpc0tZaXRaTkZkb1oxQkJTRVpQY0ZodE5GTmxXWHB6TURKV04zSlplazVGWTJsdmFHMHpaazlPTjFoWFlYWk1NamhoY1dsTVRXVmFLekp6U3poWFZuQm5VQXBNTjFab2FrTkZNRFpJTWxsVlkxaDJSbmRHZWxVMU1FTTNUMWRVUVdkTlFrRkJSMnBYVkVKWVRVRTBSMEV4VldSRWQwVkNMM2RSUlVGM1NVTndSRUZRQ2tKblRsWklVazFDUVdZNFJVSlVRVVJCVVVndlRVSXdSMEV4VldSRVoxRlhRa0pUWnpSc05XOUlRWFJTVkhKR1ZpdHdZVnBSVFcxVmNGQkRaMkZxUVZZS1FtZE9Wa2hTUlVWRWFrRk5aMmR3Y21SWFNteGpiVFZzWkVkV2VrMUJNRWREVTNGSFUwbGlNMFJSUlVKRGQxVkJRVFJKUWtGUlFtMTNPV3hIUlhnMVp3bzFOV3BsZWtwV2NHRnpiR3R3VFhONWVIZGFlblprVFdzNGFsVmthbWxKVEZRd01IWTBlWEJFUzJoS2VVaGxTalJsWjJkTmVreDJTelJMVWtaVWJEWm5DbU4zUVZWRVFVUjNUM2g2VGpVd1lqbHVjMDlVYkVFM01YRjJMMHRKUVdWUU5XVkVTR2xYYVVOcE5YbHpOSGRuU0ZaNU1XZDROMUZ6V0doVmJtWlBaVkFLT0VoNVlXdzNjVmx5TWxSUlREQlBTVVIzUlRjMWJVOWhUV3BSUjJkSVowSmpNVFEzYVVOQlF6TkZjbWhwZUVKUVYyZFRlRFZXTUM5cloxWkhWRXRVZVFvd05rcFhNa3BzV0dSMFZGVkxRMGRUZDFGRWFFSm5aWGd6Y210cmNqWlNla28xZGxnME9YcHpVRVZyWnpSWU1GQlhhbVJzTW5RM1praHFOMFF3Vm1wckNtZEdaSEpTWm5kamQwMUxheXRJY1ZWaVRGcFhlRk4yU1dWSlN6ZzJUVGRxTVd0aldHMHZZa1V3ZDBnMWFUVkZVMUUwZVZkVFkzUkxTMGhGY2s5UFZWTUtWbEJ2Y0VNM1YwaHNWSEozQ2kwdExTMHRSVTVFSUVORlVsUkpSa2xEUVZSRkxTMHRMUzBLCiAgICBzZXJ2ZXI6IGh0dHBzOi8vNzlhZDFiM2MtMTIwYy00NTY5LWI5YjEtYjg5OTI0MDY2YTY0LnVzLW9yZC01LWd3Lmxpbm9kZWxrZS5uZXQ6NDQzCiAgbmFtZTogbGtlNDgxMDc4Cgp1c2VyczoKLSBuYW1lOiBsa2U0ODEwNzgtYWRtaW4KICB1c2VyOgogICAgYXMtdXNlci1leHRyYToge30KICAgIHRva2VuOiBleUpoYkdjaU9pSlNVekkxTmlJc0ltdHBaQ0k2SWxWVFQzSmhNbmxGY0VkRFFVSkhOVnBNZEVwUmEzZERZa0Z1Wm5OV09XdFJiWEZsUWpRd04wRnZYM01pZlEuZXlKcGMzTWlPaUpyZFdKbGNtNWxkR1Z6TDNObGNuWnBZMlZoWTJOdmRXNTBJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5dVlXMWxjM0JoWTJVaU9pSnJkV0psTFhONWMzUmxiU0lzSW10MVltVnlibVYwWlhNdWFXOHZjMlZ5ZG1salpXRmpZMjkxYm5RdmMyVmpjbVYwTG01aGJXVWlPaUpzYTJVdFlXUnRhVzR0ZEc5clpXNHRZMkp1YXpVaUxDSnJkV0psY201bGRHVnpMbWx2TDNObGNuWnBZMlZoWTJOdmRXNTBMM05sY25acFkyVXRZV05qYjNWdWRDNXVZVzFsSWpvaWJHdGxMV0ZrYldsdUlpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzl6WlhKMmFXTmxMV0ZqWTI5MWJuUXVkV2xrSWpvaVpURmlNemt3T1RNdE16aG1NeTAwWXpJMExUZzNaalV0TVdRNVlXVTVPV1l4TWpsaUlpd2ljM1ZpSWpvaWMzbHpkR1Z0T25ObGNuWnBZMlZoWTJOdmRXNTBPbXQxWW1VdGMzbHpkR1Z0T214clpTMWhaRzFwYmlKOS5vcWxkV3B3NzZVS0s1V01SajhHdEJpekp5R3JvaUJCdXBJbkw3Nkt0eWk3WGJKdklnSk5QdFJIc2lmYmFsbXJ5djMxeTNycWdwZHZkVUgzdHdSS2pOYUxoQ20wM1JyR2RfdFRmdm0xdVljNllsWl9fS0NmaUNxZEp1TWhaZG9ITnVkcEpTR19nLTNqTDBwV3BqR2c2OHVicDFGU0VCbTVjNm8zc1p3RkY0VTlpd0Z1eWV4UkZEOXpKLTJtOHJTRngzTG14THpsZFlsSGRyVjF1NE1NU1JSdTJjc0ZCdGc0eW04YXB0OW5aWGFtSmhWQlM0UVBwbXoxRzhVNWt0NnpwMnR0VFpHYUxKY28xLXl1YlphTE9wa3hFRk5odTc2UmlqYkY5b2dpV2lzOXQ1QUl2aFYxUlFmX2hSbGFXY1dlaG84c0RiNkxqTlFCYnp6eDlIQjluTEEKCmNvbnRleHRzOgotIGNvbnRleHQ6CiAgICBjbHVzdGVyOiBsa2U0ODEwNzgKICAgIG5hbWVzcGFjZTogZGVmYXVsdAogICAgdXNlcjogbGtlNDgxMDc4LWFkbWluCiAgbmFtZTogbGtlNDgxMDc4LWN0eAoKY3VycmVudC1jb250ZXh0OiBsa2U0ODEwNzgtY3R4Cg==",
+            "label": "cloud-testing",
+            "pool": [
+              {
+                "autoscaler": [],
+                "count": 3,
+                "disk_encryption": "disabled",
+                "id": 697152,
+                "labels": {},
+                "nodes": [
+                  {
+                    "id": "697152-06aed1880000",
+                    "instance_id": 78488088,
+                    "status": "ready"
+                  },
+                  {
+                    "id": "697152-2187674e0000",
+                    "instance_id": 78488085,
+                    "status": "ready"
+                  },
+                  {
+                    "id": "697152-27dec0dd0000",
+                    "instance_id": 78488090,
+                    "status": "ready"
+                  }
+                ],
+                "tags": [],
+                "taint": [],
+                "type": "g6-standard-4"
+              }
+            ],
+            "region": "us-ord",
+            "status": "ready",
+            "tags": [
+              "cloud-testing",
+              "mit"
+            ],
+            "tier": "",
+            "timeouts": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "kubeconfig"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoyMTAwMDAwMDAwMDAwLCJkZWxldGUiOjkwMDAwMDAwMDAwMCwidXBkYXRlIjoyNDAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "linode_lke_node_pool",
+      "name": "gpu_pool",
+      "provider": "provider[\"registry.terraform.io/linode/linode\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "autoscaler": [
+              {
+                "max": 3,
+                "min": 1
+              }
+            ],
+            "cluster_id": 481078,
+            "disk_encryption": "disabled",
+            "id": "697331",
+            "k8s_version": null,
+            "labels": {
+              "pool": "cloud-testing-gpu"
+            },
+            "node_count": 1,
+            "nodes": [
+              {
+                "id": "697331-54397f440000",
+                "instance_id": 78494379,
+                "status": "ready"
+              }
+            ],
+            "tags": [],
+            "taint": [],
+            "type": "g2-gpu-rtx4000a1-s",
+            "update_strategy": ""
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "linode_lke_cluster.lab_cluster"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "label_cpu_nodes",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "2368015460170793207",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "linode_lke_cluster.lab_cluster"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "label_gpu_nodes",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "2252575432590861705",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "linode_lke_cluster.lab_cluster",
+            "linode_lke_node_pool.gpu_pool"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.gpu_job_queue",
+      "mode": "managed",
+      "type": "kubernetes_pod",
+      "name": "gpu_job_manager",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "status": "tainted",
+          "schema_version": 1,
+          "attributes": {
+            "id": "jhub/gpu-job-manager",
+            "metadata": [
+              {
+                "annotations": null,
+                "generate_name": "",
+                "generation": 0,
+                "labels": {
+                  "app": "gpu-job-manager"
+                },
+                "name": "gpu-job-manager",
+                "namespace": "jhub",
+                "resource_version": "",
+                "uid": ""
+              }
+            ],
+            "spec": [
+              {
+                "active_deadline_seconds": 0,
+                "affinity": [],
+                "automount_service_account_token": true,
+                "container": [
+                  {
+                    "args": null,
+                    "command": [
+                      "/bin/sh",
+                      "-c",
+                      "pip install --no-cache-dir --user pyyaml kubernetes \u0026\u0026 export PYTHONPATH=$PYTHONPATH:/root/.local/lib/python3.10/site-packages \u0026\u0026 while true; do python /shared/genailab/gpu_job_manager.py; sleep 10; done"
+                    ],
+                    "env": [],
+                    "env_from": [],
+                    "image": "python:3.10",
+                    "image_pull_policy": "",
+                    "lifecycle": [],
+                    "liveness_probe": [],
+                    "name": "manager",
+                    "port": [],
+                    "readiness_probe": [],
+                    "resources": [],
+                    "security_context": [],
+                    "startup_probe": [],
+                    "stdin": false,
+                    "stdin_once": false,
+                    "termination_message_path": "/dev/termination-log",
+                    "termination_message_policy": "",
+                    "tty": false,
+                    "volume_device": [],
+                    "volume_mount": [
+                      {
+                        "mount_path": "/shared",
+                        "mount_propagation": "None",
+                        "name": "shared",
+                        "read_only": false,
+                        "sub_path": ""
+                      }
+                    ],
+                    "working_dir": ""
+                  }
+                ],
+                "dns_config": [],
+                "dns_policy": "ClusterFirst",
+                "enable_service_links": true,
+                "host_aliases": [],
+                "host_ipc": false,
+                "host_network": false,
+                "host_pid": false,
+                "hostname": "",
+                "image_pull_secrets": [],
+                "init_container": [],
+                "node_name": "",
+                "node_selector": {
+                  "accelerator": "nvidia"
+                },
+                "os": [],
+                "priority_class_name": "",
+                "readiness_gate": [],
+                "restart_policy": "Always",
+                "runtime_class_name": "",
+                "scheduler_name": "",
+                "security_context": [],
+                "service_account_name": "gpu-job-submitter",
+                "share_process_namespace": false,
+                "subdomain": "",
+                "termination_grace_period_seconds": 30,
+                "toleration": [],
+                "topology_spread_constraint": [],
+                "volume": [
+                  {
+                    "aws_elastic_block_store": [],
+                    "azure_disk": [],
+                    "azure_file": [],
+                    "ceph_fs": [],
+                    "cinder": [],
+                    "config_map": [],
+                    "csi": [],
+                    "downward_api": [],
+                    "empty_dir": [],
+                    "ephemeral": [],
+                    "fc": [],
+                    "flex_volume": [],
+                    "flocker": [],
+                    "gce_persistent_disk": [],
+                    "git_repo": [],
+                    "glusterfs": [],
+                    "host_path": [],
+                    "iscsi": [],
+                    "local": [],
+                    "name": "shared",
+                    "nfs": [],
+                    "persistent_volume_claim": [
+                      {
+                        "claim_name": "shared-dataset-pvc",
+                        "read_only": false
+                      }
+                    ],
+                    "photon_persistent_disk": [],
+                    "projected": [],
+                    "quobyte": [],
+                    "rbd": [],
+                    "secret": [],
+                    "vsphere_volume": []
+                  }
+                ]
+              }
+            ],
+            "target_state": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIxIn0=",
+          "dependencies": [
+            "module.gpu_job_queue.kubernetes_service_account.gpu_job_submitter"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.gpu_job_queue",
+      "mode": "managed",
+      "type": "kubernetes_role",
+      "name": "gpu_job_creator",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "jhub/gpu-job-creator",
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "gpu-job-creator",
+                "namespace": "jhub",
+                "resource_version": "2413",
+                "uid": "71c0140e-c121-40c3-ab02-fb475a47a6e9"
+              }
+            ],
+            "rule": [
+              {
+                "api_groups": [
+                  "batch"
+                ],
+                "resource_names": [],
+                "resources": [
+                  "jobs"
+                ],
+                "verbs": [
+                  "create",
+                  "delete",
+                  "get",
+                  "list",
+                  "watch"
+                ]
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "module": "module.gpu_job_queue",
+      "mode": "managed",
+      "type": "kubernetes_role_binding",
+      "name": "gpu_job_submitter_binding",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "jhub/gpu-job-binding",
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "gpu-job-binding",
+                "namespace": "jhub",
+                "resource_version": "2416",
+                "uid": "bc2407b9-ea83-454d-a680-5d6dacfd5da7"
+              }
+            ],
+            "role_ref": [
+              {
+                "api_group": "rbac.authorization.k8s.io",
+                "kind": "Role",
+                "name": "gpu-job-creator"
+              }
+            ],
+            "subject": [
+              {
+                "api_group": "",
+                "kind": "ServiceAccount",
+                "name": "gpu-job-submitter",
+                "namespace": "jhub"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.gpu_job_queue.kubernetes_role.gpu_job_creator",
+            "module.gpu_job_queue.kubernetes_service_account.gpu_job_submitter"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.gpu_job_queue",
+      "mode": "managed",
+      "type": "kubernetes_service_account",
+      "name": "gpu_job_submitter",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "automount_service_account_token": true,
+            "default_secret_name": "",
+            "id": "jhub/gpu-job-submitter",
+            "image_pull_secret": [],
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "gpu-job-submitter",
+                "namespace": "jhub",
+                "resource_version": "2414",
+                "uid": "9203de20-0bbe-409d-b23a-ed9e092b9da1"
+              }
+            ],
+            "secret": [],
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "data",
+      "type": "kubernetes_service",
+      "name": "nginx_lb",
+      "provider": "module.https_automation.provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "ingress-nginx/ingress-nginx-controller",
+            "metadata": [
+              {
+                "annotations": {
+                  "meta.helm.sh/release-name": "ingress-nginx",
+                  "meta.helm.sh/release-namespace": "ingress-nginx"
+                },
+                "generation": 0,
+                "labels": {
+                  "app.kubernetes.io/component": "controller",
+                  "app.kubernetes.io/instance": "ingress-nginx",
+                  "app.kubernetes.io/managed-by": "Helm",
+                  "app.kubernetes.io/name": "ingress-nginx",
+                  "app.kubernetes.io/part-of": "ingress-nginx",
+                  "app.kubernetes.io/version": "1.10.0",
+                  "helm.sh/chart": "ingress-nginx-4.10.0"
+                },
+                "name": "ingress-nginx-controller",
+                "namespace": "ingress-nginx",
+                "resource_version": "2250",
+                "uid": "c999b072-ac13-4e91-8d97-93a21a3ab8d3"
+              }
+            ],
+            "spec": [
+              {
+                "allocate_load_balancer_node_ports": true,
+                "cluster_ip": "10.128.163.36",
+                "cluster_ips": [
+                  "10.128.163.36"
+                ],
+                "external_ips": [],
+                "external_name": "",
+                "external_traffic_policy": "Cluster",
+                "health_check_node_port": 0,
+                "internal_traffic_policy": "Cluster",
+                "ip_families": [
+                  "IPv4"
+                ],
+                "ip_family_policy": "SingleStack",
+                "load_balancer_class": "",
+                "load_balancer_ip": "",
+                "load_balancer_source_ranges": [],
+                "port": [
+                  {
+                    "app_protocol": "http",
+                    "name": "http",
+                    "node_port": 30456,
+                    "port": 80,
+                    "protocol": "TCP",
+                    "target_port": "http"
+                  },
+                  {
+                    "app_protocol": "https",
+                    "name": "https",
+                    "node_port": 30103,
+                    "port": 443,
+                    "protocol": "TCP",
+                    "target_port": "https"
+                  }
+                ],
+                "publish_not_ready_addresses": false,
+                "selector": {
+                  "app.kubernetes.io/component": "controller",
+                  "app.kubernetes.io/instance": "ingress-nginx",
+                  "app.kubernetes.io/name": "ingress-nginx"
+                },
+                "session_affinity": "None",
+                "session_affinity_config": [],
+                "type": "LoadBalancer"
+              }
+            ],
+            "status": [
+              {
+                "load_balancer": [
+                  {
+                    "ingress": [
+                      {
+                        "hostname": "172-238-180-194.ip.linodeusercontent.com",
+                        "ip": "172.238.180.194"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "data",
+      "type": "linode_domain",
+      "name": "selected",
+      "provider": "provider[\"registry.terraform.io/linode/linode\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "axfr_ips": [],
+            "description": "",
+            "domain": "labberger.com",
+            "expire_sec": 0,
+            "group": "",
+            "id": 3265537,
+            "master_ips": [],
+            "refresh_sec": 0,
+            "retry_sec": 0,
+            "soa_email": "dschaffe@mit.edu",
+            "status": "active",
+            "tags": [],
+            "ttl_sec": 0,
+            "type": "master"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "cert_manager",
+      "provider": "module.https_automation.provider[\"registry.terraform.io/hashicorp/helm\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "cert-manager",
+            "cleanup_on_fail": false,
+            "create_namespace": true,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "cert-manager",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "v1.13.3",
+                "chart": "cert-manager",
+                "first_deployed": 1749689033,
+                "last_deployed": 1749689033,
+                "name": "cert-manager",
+                "namespace": "cert-manager",
+                "notes": "cert-manager v1.13.3 has been deployed successfully!\n\nIn order to begin issuing certificates, you will need to set up a ClusterIssuer\nor Issuer resource (for example, by creating a 'letsencrypt-staging' issuer).\n\nMore information on the different types of issuers and how to configure them\ncan be found in our documentation:\n\nhttps://cert-manager.io/docs/configuration/\n\nFor information on how to configure cert-manager to automatically provision\nCertificates for Ingress resources, take a look at the `ingress-shim`\ndocumentation:\n\nhttps://cert-manager.io/docs/usage/ingress/\n",
+                "revision": 1,
+                "values": "{\"installCRDs\":true}",
+                "version": "v1.13.3"
+              }
+            ],
+            "name": "cert-manager",
+            "namespace": "cert-manager",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://charts.jetstack.io",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [
+              {
+                "name": "installCRDs",
+                "type": "",
+                "value": "true"
+              }
+            ],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "v1.13.3",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "ingress_nginx",
+      "provider": "module.https_automation.provider[\"registry.terraform.io/hashicorp/helm\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "ingress-nginx",
+            "cleanup_on_fail": false,
+            "create_namespace": true,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "ingress-nginx",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "1.10.0",
+                "chart": "ingress-nginx",
+                "first_deployed": 1749689061,
+                "last_deployed": 1749689061,
+                "name": "ingress-nginx",
+                "namespace": "ingress-nginx",
+                "notes": "The ingress-nginx controller has been installed.\nIt may take a few minutes for the load balancer IP to be available.\nYou can watch the status by running 'kubectl get service --namespace ingress-nginx ingress-nginx-controller --output wide --watch'\n\nAn example Ingress that makes use of the controller:\n  apiVersion: networking.k8s.io/v1\n  kind: Ingress\n  metadata:\n    name: example\n    namespace: foo\n  spec:\n    ingressClassName: nginx\n    rules:\n      - host: www.example.com\n        http:\n          paths:\n            - pathType: Prefix\n              backend:\n                service:\n                  name: exampleService\n                  port:\n                    number: 80\n              path: /\n    # This section is only required if TLS is to be enabled for the Ingress\n    tls:\n      - hosts:\n        - www.example.com\n        secretName: example-tls\n\nIf TLS is enabled for the Ingress, a Secret containing the certificate and key must also be provided:\n\n  apiVersion: v1\n  kind: Secret\n  metadata:\n    name: example-tls\n    namespace: foo\n  data:\n    tls.crt: \u003cbase64 encoded cert\u003e\n    tls.key: \u003cbase64 encoded key\u003e\n  type: kubernetes.io/tls\n",
+                "revision": 1,
+                "values": "{\"controller\":{\"ingressClassResource\":{\"default\":true,\"name\":\"nginx\"},\"publishService\":{\"enabled\":true}}}",
+                "version": "4.10.0"
+              }
+            ],
+            "name": "ingress-nginx",
+            "namespace": "ingress-nginx",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://kubernetes.github.io/ingress-nginx",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [
+              {
+                "name": "controller.ingressClassResource.default",
+                "type": "",
+                "value": "true"
+              },
+              {
+                "name": "controller.ingressClassResource.name",
+                "type": "",
+                "value": "nginx"
+              },
+              {
+                "name": "controller.publishService.enabled",
+                "type": "",
+                "value": "true"
+              }
+            ],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": null,
+            "verify": false,
+            "version": "4.10.0",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "managed",
+      "type": "kubernetes_manifest",
+      "name": "cluster_issuer",
+      "provider": "module.https_automation.provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "computed_fields": null,
+            "field_manager": [],
+            "manifest": {
+              "value": {
+                "apiVersion": "cert-manager.io/v1",
+                "kind": "ClusterIssuer",
+                "metadata": {
+                  "name": "letsencrypt-prod"
+                },
+                "spec": {
+                  "acme": {
+                    "email": "dschaffe@mit.edu",
+                    "privateKeySecretRef": {
+                      "name": "letsencrypt-prod"
+                    },
+                    "server": "https://acme-v02.api.letsencrypt.org/directory",
+                    "solvers": [
+                      {
+                        "http01": {
+                          "ingress": {
+                            "class": "nginx"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "type": [
+                "object",
+                {
+                  "apiVersion": "string",
+                  "kind": "string",
+                  "metadata": [
+                    "object",
+                    {
+                      "name": "string"
+                    }
+                  ],
+                  "spec": [
+                    "object",
+                    {
+                      "acme": [
+                        "object",
+                        {
+                          "email": "string",
+                          "privateKeySecretRef": [
+                            "object",
+                            {
+                              "name": "string"
+                            }
+                          ],
+                          "server": "string",
+                          "solvers": [
+                            "tuple",
+                            [
+                              [
+                                "object",
+                                {
+                                  "http01": [
+                                    "object",
+                                    {
+                                      "ingress": [
+                                        "object",
+                                        {
+                                          "class": "string"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "object": {
+              "value": {
+                "apiVersion": "cert-manager.io/v1",
+                "kind": "ClusterIssuer",
+                "metadata": {
+                  "annotations": null,
+                  "creationTimestamp": null,
+                  "deletionGracePeriodSeconds": null,
+                  "deletionTimestamp": null,
+                  "finalizers": null,
+                  "generateName": null,
+                  "generation": null,
+                  "labels": null,
+                  "managedFields": null,
+                  "name": "letsencrypt-prod",
+                  "namespace": null,
+                  "ownerReferences": null,
+                  "resourceVersion": null,
+                  "selfLink": null,
+                  "uid": null
+                },
+                "spec": {
+                  "acme": {
+                    "caBundle": null,
+                    "disableAccountKeyGeneration": null,
+                    "email": "dschaffe@mit.edu",
+                    "enableDurationFeature": null,
+                    "externalAccountBinding": {
+                      "keyAlgorithm": null,
+                      "keyID": null,
+                      "keySecretRef": {
+                        "key": null,
+                        "name": null
+                      }
+                    },
+                    "preferredChain": null,
+                    "privateKeySecretRef": {
+                      "key": null,
+                      "name": "letsencrypt-prod"
+                    },
+                    "profile": null,
+                    "server": "https://acme-v02.api.letsencrypt.org/directory",
+                    "skipTLSVerify": null,
+                    "solvers": [
+                      {
+                        "dns01": {
+                          "acmeDNS": {
+                            "accountSecretRef": {
+                              "key": null,
+                              "name": null
+                            },
+                            "host": null
+                          },
+                          "akamai": {
+                            "accessTokenSecretRef": {
+                              "key": null,
+                              "name": null
+                            },
+                            "clientSecretSecretRef": {
+                              "key": null,
+                              "name": null
+                            },
+                            "clientTokenSecretRef": {
+                              "key": null,
+                              "name": null
+                            },
+                            "serviceConsumerDomain": null
+                          },
+                          "azureDNS": {
+                            "clientID": null,
+                            "clientSecretSecretRef": {
+                              "key": null,
+                              "name": null
+                            },
+                            "environment": null,
+                            "hostedZoneName": null,
+                            "managedIdentity": {
+                              "clientID": null,
+                              "resourceID": null,
+                              "tenantID": null
+                            },
+                            "resourceGroupName": null,
+                            "subscriptionID": null,
+                            "tenantID": null
+                          },
+                          "cloudDNS": {
+                            "hostedZoneName": null,
+                            "project": null,
+                            "serviceAccountSecretRef": {
+                              "key": null,
+                              "name": null
+                            }
+                          },
+                          "cloudflare": {
+                            "apiKeySecretRef": {
+                              "key": null,
+                              "name": null
+                            },
+                            "apiTokenSecretRef": {
+                              "key": null,
+                              "name": null
+                            },
+                            "email": null
+                          },
+                          "cnameStrategy": null,
+                          "digitalocean": {
+                            "tokenSecretRef": {
+                              "key": null,
+                              "name": null
+                            }
+                          },
+                          "rfc2136": {
+                            "nameserver": null,
+                            "tsigAlgorithm": null,
+                            "tsigKeyName": null,
+                            "tsigSecretSecretRef": {
+                              "key": null,
+                              "name": null
+                            }
+                          },
+                          "route53": {
+                            "accessKeyID": null,
+                            "accessKeyIDSecretRef": {
+                              "key": null,
+                              "name": null
+                            },
+                            "auth": {
+                              "kubernetes": {
+                                "serviceAccountRef": {
+                                  "audiences": null,
+                                  "name": null
+                                }
+                              }
+                            },
+                            "hostedZoneID": null,
+                            "region": null,
+                            "role": null,
+                            "secretAccessKeySecretRef": {
+                              "key": null,
+                              "name": null
+                            }
+                          },
+                          "webhook": {
+                            "config": null,
+                            "groupName": null,
+                            "solverName": null
+                          }
+                        },
+                        "http01": {
+                          "gatewayHTTPRoute": {
+                            "labels": null,
+                            "parentRefs": null,
+                            "podTemplate": {
+                              "metadata": {
+                                "annotations": null,
+                                "labels": null
+                              },
+                              "spec": {
+                                "affinity": {
+                                  "nodeAffinity": {
+                                    "preferredDuringSchedulingIgnoredDuringExecution": null,
+                                    "requiredDuringSchedulingIgnoredDuringExecution": {
+                                      "nodeSelectorTerms": null
+                                    }
+                                  },
+                                  "podAffinity": {
+                                    "preferredDuringSchedulingIgnoredDuringExecution": null,
+                                    "requiredDuringSchedulingIgnoredDuringExecution": null
+                                  },
+                                  "podAntiAffinity": {
+                                    "preferredDuringSchedulingIgnoredDuringExecution": null,
+                                    "requiredDuringSchedulingIgnoredDuringExecution": null
+                                  }
+                                },
+                                "imagePullSecrets": null,
+                                "nodeSelector": null,
+                                "priorityClassName": null,
+                                "securityContext": {
+                                  "fsGroup": null,
+                                  "fsGroupChangePolicy": null,
+                                  "runAsGroup": null,
+                                  "runAsNonRoot": null,
+                                  "runAsUser": null,
+                                  "seLinuxOptions": {
+                                    "level": null,
+                                    "role": null,
+                                    "type": null,
+                                    "user": null
+                                  },
+                                  "seccompProfile": {
+                                    "localhostProfile": null,
+                                    "type": null
+                                  },
+                                  "supplementalGroups": null,
+                                  "sysctls": null
+                                },
+                                "serviceAccountName": null,
+                                "tolerations": null
+                              }
+                            },
+                            "serviceType": null
+                          },
+                          "ingress": {
+                            "class": "nginx",
+                            "ingressClassName": null,
+                            "ingressTemplate": {
+                              "metadata": {
+                                "annotations": null,
+                                "labels": null
+                              }
+                            },
+                            "name": null,
+                            "podTemplate": {
+                              "metadata": {
+                                "annotations": null,
+                                "labels": null
+                              },
+                              "spec": {
+                                "affinity": {
+                                  "nodeAffinity": {
+                                    "preferredDuringSchedulingIgnoredDuringExecution": null,
+                                    "requiredDuringSchedulingIgnoredDuringExecution": {
+                                      "nodeSelectorTerms": null
+                                    }
+                                  },
+                                  "podAffinity": {
+                                    "preferredDuringSchedulingIgnoredDuringExecution": null,
+                                    "requiredDuringSchedulingIgnoredDuringExecution": null
+                                  },
+                                  "podAntiAffinity": {
+                                    "preferredDuringSchedulingIgnoredDuringExecution": null,
+                                    "requiredDuringSchedulingIgnoredDuringExecution": null
+                                  }
+                                },
+                                "imagePullSecrets": null,
+                                "nodeSelector": null,
+                                "priorityClassName": null,
+                                "securityContext": {
+                                  "fsGroup": null,
+                                  "fsGroupChangePolicy": null,
+                                  "runAsGroup": null,
+                                  "runAsNonRoot": null,
+                                  "runAsUser": null,
+                                  "seLinuxOptions": {
+                                    "level": null,
+                                    "role": null,
+                                    "type": null,
+                                    "user": null
+                                  },
+                                  "seccompProfile": {
+                                    "localhostProfile": null,
+                                    "type": null
+                                  },
+                                  "supplementalGroups": null,
+                                  "sysctls": null
+                                },
+                                "serviceAccountName": null,
+                                "tolerations": null
+                              }
+                            },
+                            "serviceType": null
+                          }
+                        },
+                        "selector": {
+                          "dnsNames": null,
+                          "dnsZones": null,
+                          "matchLabels": null
+                        }
+                      }
+                    ]
+                  },
+                  "ca": {
+                    "crlDistributionPoints": null,
+                    "issuingCertificateURLs": null,
+                    "ocspServers": null,
+                    "secretName": null
+                  },
+                  "selfSigned": {
+                    "crlDistributionPoints": null
+                  },
+                  "vault": {
+                    "auth": {
+                      "appRole": {
+                        "path": null,
+                        "roleId": null,
+                        "secretRef": {
+                          "key": null,
+                          "name": null
+                        }
+                      },
+                      "clientCertificate": {
+                        "mountPath": null,
+                        "name": null,
+                        "secretName": null
+                      },
+                      "kubernetes": {
+                        "mountPath": null,
+                        "role": null,
+                        "secretRef": {
+                          "key": null,
+                          "name": null
+                        },
+                        "serviceAccountRef": {
+                          "audiences": null,
+                          "name": null
+                        }
+                      },
+                      "tokenSecretRef": {
+                        "key": null,
+                        "name": null
+                      }
+                    },
+                    "caBundle": null,
+                    "caBundleSecretRef": {
+                      "key": null,
+                      "name": null
+                    },
+                    "clientCertSecretRef": {
+                      "key": null,
+                      "name": null
+                    },
+                    "clientKeySecretRef": {
+                      "key": null,
+                      "name": null
+                    },
+                    "namespace": null,
+                    "path": null,
+                    "server": null,
+                    "serverName": null
+                  },
+                  "venafi": {
+                    "cloud": {
+                      "apiTokenSecretRef": {
+                        "key": null,
+                        "name": null
+                      },
+                      "url": null
+                    },
+                    "tpp": {
+                      "caBundle": null,
+                      "caBundleSecretRef": {
+                        "key": null,
+                        "name": null
+                      },
+                      "credentialsRef": {
+                        "name": null
+                      },
+                      "url": null
+                    },
+                    "zone": null
+                  }
+                }
+              },
+              "type": [
+                "object",
+                {
+                  "apiVersion": "string",
+                  "kind": "string",
+                  "metadata": [
+                    "object",
+                    {
+                      "annotations": [
+                        "map",
+                        "string"
+                      ],
+                      "creationTimestamp": "string",
+                      "deletionGracePeriodSeconds": "number",
+                      "deletionTimestamp": "string",
+                      "finalizers": [
+                        "list",
+                        "string"
+                      ],
+                      "generateName": "string",
+                      "generation": "number",
+                      "labels": [
+                        "map",
+                        "string"
+                      ],
+                      "managedFields": [
+                        "tuple",
+                        [
+                          [
+                            "object",
+                            {
+                              "apiVersion": "string",
+                              "fieldsType": "string",
+                              "fieldsV1": "dynamic",
+                              "manager": "string",
+                              "operation": "string",
+                              "subresource": "string",
+                              "time": "string"
+                            }
+                          ]
+                        ]
+                      ],
+                      "name": "string",
+                      "namespace": "string",
+                      "ownerReferences": [
+                        "list",
+                        [
+                          "object",
+                          {
+                            "apiVersion": "string",
+                            "blockOwnerDeletion": "bool",
+                            "controller": "bool",
+                            "kind": "string",
+                            "name": "string",
+                            "uid": "string"
+                          }
+                        ]
+                      ],
+                      "resourceVersion": "string",
+                      "selfLink": "string",
+                      "uid": "string"
+                    }
+                  ],
+                  "spec": [
+                    "object",
+                    {
+                      "acme": [
+                        "object",
+                        {
+                          "caBundle": "string",
+                          "disableAccountKeyGeneration": "bool",
+                          "email": "string",
+                          "enableDurationFeature": "bool",
+                          "externalAccountBinding": [
+                            "object",
+                            {
+                              "keyAlgorithm": "string",
+                              "keyID": "string",
+                              "keySecretRef": [
+                                "object",
+                                {
+                                  "key": "string",
+                                  "name": "string"
+                                }
+                              ]
+                            }
+                          ],
+                          "preferredChain": "string",
+                          "privateKeySecretRef": [
+                            "object",
+                            {
+                              "key": "string",
+                              "name": "string"
+                            }
+                          ],
+                          "profile": "string",
+                          "server": "string",
+                          "skipTLSVerify": "bool",
+                          "solvers": [
+                            "tuple",
+                            [
+                              [
+                                "object",
+                                {
+                                  "dns01": [
+                                    "object",
+                                    {
+                                      "acmeDNS": [
+                                        "object",
+                                        {
+                                          "accountSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "host": "string"
+                                        }
+                                      ],
+                                      "akamai": [
+                                        "object",
+                                        {
+                                          "accessTokenSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "clientSecretSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "clientTokenSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "serviceConsumerDomain": "string"
+                                        }
+                                      ],
+                                      "azureDNS": [
+                                        "object",
+                                        {
+                                          "clientID": "string",
+                                          "clientSecretSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "environment": "string",
+                                          "hostedZoneName": "string",
+                                          "managedIdentity": [
+                                            "object",
+                                            {
+                                              "clientID": "string",
+                                              "resourceID": "string",
+                                              "tenantID": "string"
+                                            }
+                                          ],
+                                          "resourceGroupName": "string",
+                                          "subscriptionID": "string",
+                                          "tenantID": "string"
+                                        }
+                                      ],
+                                      "cloudDNS": [
+                                        "object",
+                                        {
+                                          "hostedZoneName": "string",
+                                          "project": "string",
+                                          "serviceAccountSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "cloudflare": [
+                                        "object",
+                                        {
+                                          "apiKeySecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "apiTokenSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "email": "string"
+                                        }
+                                      ],
+                                      "cnameStrategy": "string",
+                                      "digitalocean": [
+                                        "object",
+                                        {
+                                          "tokenSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "rfc2136": [
+                                        "object",
+                                        {
+                                          "nameserver": "string",
+                                          "tsigAlgorithm": "string",
+                                          "tsigKeyName": "string",
+                                          "tsigSecretSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "route53": [
+                                        "object",
+                                        {
+                                          "accessKeyID": "string",
+                                          "accessKeyIDSecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "auth": [
+                                            "object",
+                                            {
+                                              "kubernetes": [
+                                                "object",
+                                                {
+                                                  "serviceAccountRef": [
+                                                    "object",
+                                                    {
+                                                      "audiences": [
+                                                        "list",
+                                                        "string"
+                                                      ],
+                                                      "name": "string"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "hostedZoneID": "string",
+                                          "region": "string",
+                                          "role": "string",
+                                          "secretAccessKeySecretRef": [
+                                            "object",
+                                            {
+                                              "key": "string",
+                                              "name": "string"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "webhook": [
+                                        "object",
+                                        {
+                                          "config": "dynamic",
+                                          "groupName": "string",
+                                          "solverName": "string"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "http01": [
+                                    "object",
+                                    {
+                                      "gatewayHTTPRoute": [
+                                        "object",
+                                        {
+                                          "labels": [
+                                            "map",
+                                            "string"
+                                          ],
+                                          "parentRefs": [
+                                            "list",
+                                            [
+                                              "object",
+                                              {
+                                                "group": "string",
+                                                "kind": "string",
+                                                "name": "string",
+                                                "namespace": "string",
+                                                "port": "number",
+                                                "sectionName": "string"
+                                              }
+                                            ]
+                                          ],
+                                          "podTemplate": [
+                                            "object",
+                                            {
+                                              "metadata": [
+                                                "object",
+                                                {
+                                                  "annotations": [
+                                                    "map",
+                                                    "string"
+                                                  ],
+                                                  "labels": [
+                                                    "map",
+                                                    "string"
+                                                  ]
+                                                }
+                                              ],
+                                              "spec": [
+                                                "object",
+                                                {
+                                                  "affinity": [
+                                                    "object",
+                                                    {
+                                                      "nodeAffinity": [
+                                                        "object",
+                                                        {
+                                                          "preferredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "preference": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchFields": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "weight": "number"
+                                                              }
+                                                            ]
+                                                          ],
+                                                          "requiredDuringSchedulingIgnoredDuringExecution": [
+                                                            "object",
+                                                            {
+                                                              "nodeSelectorTerms": [
+                                                                "list",
+                                                                [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchFields": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "podAffinity": [
+                                                        "object",
+                                                        {
+                                                          "preferredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "podAffinityTerm": [
+                                                                  "object",
+                                                                  {
+                                                                    "labelSelector": [
+                                                                      "object",
+                                                                      {
+                                                                        "matchExpressions": [
+                                                                          "list",
+                                                                          [
+                                                                            "object",
+                                                                            {
+                                                                              "key": "string",
+                                                                              "operator": "string",
+                                                                              "values": [
+                                                                                "list",
+                                                                                "string"
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ],
+                                                                        "matchLabels": [
+                                                                          "map",
+                                                                          "string"
+                                                                        ]
+                                                                      }
+                                                                    ],
+                                                                    "matchLabelKeys": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "mismatchLabelKeys": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "namespaceSelector": [
+                                                                      "object",
+                                                                      {
+                                                                        "matchExpressions": [
+                                                                          "list",
+                                                                          [
+                                                                            "object",
+                                                                            {
+                                                                              "key": "string",
+                                                                              "operator": "string",
+                                                                              "values": [
+                                                                                "list",
+                                                                                "string"
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ],
+                                                                        "matchLabels": [
+                                                                          "map",
+                                                                          "string"
+                                                                        ]
+                                                                      }
+                                                                    ],
+                                                                    "namespaces": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "topologyKey": "string"
+                                                                  }
+                                                                ],
+                                                                "weight": "number"
+                                                              }
+                                                            ]
+                                                          ],
+                                                          "requiredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "labelSelector": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchLabels": [
+                                                                      "map",
+                                                                      "string"
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "matchLabelKeys": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "mismatchLabelKeys": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "namespaceSelector": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchLabels": [
+                                                                      "map",
+                                                                      "string"
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "namespaces": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "topologyKey": "string"
+                                                              }
+                                                            ]
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "podAntiAffinity": [
+                                                        "object",
+                                                        {
+                                                          "preferredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "podAffinityTerm": [
+                                                                  "object",
+                                                                  {
+                                                                    "labelSelector": [
+                                                                      "object",
+                                                                      {
+                                                                        "matchExpressions": [
+                                                                          "list",
+                                                                          [
+                                                                            "object",
+                                                                            {
+                                                                              "key": "string",
+                                                                              "operator": "string",
+                                                                              "values": [
+                                                                                "list",
+                                                                                "string"
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ],
+                                                                        "matchLabels": [
+                                                                          "map",
+                                                                          "string"
+                                                                        ]
+                                                                      }
+                                                                    ],
+                                                                    "matchLabelKeys": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "mismatchLabelKeys": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "namespaceSelector": [
+                                                                      "object",
+                                                                      {
+                                                                        "matchExpressions": [
+                                                                          "list",
+                                                                          [
+                                                                            "object",
+                                                                            {
+                                                                              "key": "string",
+                                                                              "operator": "string",
+                                                                              "values": [
+                                                                                "list",
+                                                                                "string"
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ],
+                                                                        "matchLabels": [
+                                                                          "map",
+                                                                          "string"
+                                                                        ]
+                                                                      }
+                                                                    ],
+                                                                    "namespaces": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "topologyKey": "string"
+                                                                  }
+                                                                ],
+                                                                "weight": "number"
+                                                              }
+                                                            ]
+                                                          ],
+                                                          "requiredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "labelSelector": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchLabels": [
+                                                                      "map",
+                                                                      "string"
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "matchLabelKeys": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "mismatchLabelKeys": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "namespaceSelector": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchLabels": [
+                                                                      "map",
+                                                                      "string"
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "namespaces": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "topologyKey": "string"
+                                                              }
+                                                            ]
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "imagePullSecrets": [
+                                                    "list",
+                                                    [
+                                                      "object",
+                                                      {
+                                                        "name": "string"
+                                                      }
+                                                    ]
+                                                  ],
+                                                  "nodeSelector": [
+                                                    "map",
+                                                    "string"
+                                                  ],
+                                                  "priorityClassName": "string",
+                                                  "securityContext": [
+                                                    "object",
+                                                    {
+                                                      "fsGroup": "number",
+                                                      "fsGroupChangePolicy": "string",
+                                                      "runAsGroup": "number",
+                                                      "runAsNonRoot": "bool",
+                                                      "runAsUser": "number",
+                                                      "seLinuxOptions": [
+                                                        "object",
+                                                        {
+                                                          "level": "string",
+                                                          "role": "string",
+                                                          "type": "string",
+                                                          "user": "string"
+                                                        }
+                                                      ],
+                                                      "seccompProfile": [
+                                                        "object",
+                                                        {
+                                                          "localhostProfile": "string",
+                                                          "type": "string"
+                                                        }
+                                                      ],
+                                                      "supplementalGroups": [
+                                                        "list",
+                                                        "number"
+                                                      ],
+                                                      "sysctls": [
+                                                        "list",
+                                                        [
+                                                          "object",
+                                                          {
+                                                            "name": "string",
+                                                            "value": "string"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "serviceAccountName": "string",
+                                                  "tolerations": [
+                                                    "list",
+                                                    [
+                                                      "object",
+                                                      {
+                                                        "effect": "string",
+                                                        "key": "string",
+                                                        "operator": "string",
+                                                        "tolerationSeconds": "number",
+                                                        "value": "string"
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "serviceType": "string"
+                                        }
+                                      ],
+                                      "ingress": [
+                                        "object",
+                                        {
+                                          "class": "string",
+                                          "ingressClassName": "string",
+                                          "ingressTemplate": [
+                                            "object",
+                                            {
+                                              "metadata": [
+                                                "object",
+                                                {
+                                                  "annotations": [
+                                                    "map",
+                                                    "string"
+                                                  ],
+                                                  "labels": [
+                                                    "map",
+                                                    "string"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "name": "string",
+                                          "podTemplate": [
+                                            "object",
+                                            {
+                                              "metadata": [
+                                                "object",
+                                                {
+                                                  "annotations": [
+                                                    "map",
+                                                    "string"
+                                                  ],
+                                                  "labels": [
+                                                    "map",
+                                                    "string"
+                                                  ]
+                                                }
+                                              ],
+                                              "spec": [
+                                                "object",
+                                                {
+                                                  "affinity": [
+                                                    "object",
+                                                    {
+                                                      "nodeAffinity": [
+                                                        "object",
+                                                        {
+                                                          "preferredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "preference": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchFields": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "weight": "number"
+                                                              }
+                                                            ]
+                                                          ],
+                                                          "requiredDuringSchedulingIgnoredDuringExecution": [
+                                                            "object",
+                                                            {
+                                                              "nodeSelectorTerms": [
+                                                                "list",
+                                                                [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchFields": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "podAffinity": [
+                                                        "object",
+                                                        {
+                                                          "preferredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "podAffinityTerm": [
+                                                                  "object",
+                                                                  {
+                                                                    "labelSelector": [
+                                                                      "object",
+                                                                      {
+                                                                        "matchExpressions": [
+                                                                          "list",
+                                                                          [
+                                                                            "object",
+                                                                            {
+                                                                              "key": "string",
+                                                                              "operator": "string",
+                                                                              "values": [
+                                                                                "list",
+                                                                                "string"
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ],
+                                                                        "matchLabels": [
+                                                                          "map",
+                                                                          "string"
+                                                                        ]
+                                                                      }
+                                                                    ],
+                                                                    "matchLabelKeys": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "mismatchLabelKeys": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "namespaceSelector": [
+                                                                      "object",
+                                                                      {
+                                                                        "matchExpressions": [
+                                                                          "list",
+                                                                          [
+                                                                            "object",
+                                                                            {
+                                                                              "key": "string",
+                                                                              "operator": "string",
+                                                                              "values": [
+                                                                                "list",
+                                                                                "string"
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ],
+                                                                        "matchLabels": [
+                                                                          "map",
+                                                                          "string"
+                                                                        ]
+                                                                      }
+                                                                    ],
+                                                                    "namespaces": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "topologyKey": "string"
+                                                                  }
+                                                                ],
+                                                                "weight": "number"
+                                                              }
+                                                            ]
+                                                          ],
+                                                          "requiredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "labelSelector": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchLabels": [
+                                                                      "map",
+                                                                      "string"
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "matchLabelKeys": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "mismatchLabelKeys": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "namespaceSelector": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchLabels": [
+                                                                      "map",
+                                                                      "string"
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "namespaces": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "topologyKey": "string"
+                                                              }
+                                                            ]
+                                                          ]
+                                                        }
+                                                      ],
+                                                      "podAntiAffinity": [
+                                                        "object",
+                                                        {
+                                                          "preferredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "podAffinityTerm": [
+                                                                  "object",
+                                                                  {
+                                                                    "labelSelector": [
+                                                                      "object",
+                                                                      {
+                                                                        "matchExpressions": [
+                                                                          "list",
+                                                                          [
+                                                                            "object",
+                                                                            {
+                                                                              "key": "string",
+                                                                              "operator": "string",
+                                                                              "values": [
+                                                                                "list",
+                                                                                "string"
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ],
+                                                                        "matchLabels": [
+                                                                          "map",
+                                                                          "string"
+                                                                        ]
+                                                                      }
+                                                                    ],
+                                                                    "matchLabelKeys": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "mismatchLabelKeys": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "namespaceSelector": [
+                                                                      "object",
+                                                                      {
+                                                                        "matchExpressions": [
+                                                                          "list",
+                                                                          [
+                                                                            "object",
+                                                                            {
+                                                                              "key": "string",
+                                                                              "operator": "string",
+                                                                              "values": [
+                                                                                "list",
+                                                                                "string"
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        ],
+                                                                        "matchLabels": [
+                                                                          "map",
+                                                                          "string"
+                                                                        ]
+                                                                      }
+                                                                    ],
+                                                                    "namespaces": [
+                                                                      "list",
+                                                                      "string"
+                                                                    ],
+                                                                    "topologyKey": "string"
+                                                                  }
+                                                                ],
+                                                                "weight": "number"
+                                                              }
+                                                            ]
+                                                          ],
+                                                          "requiredDuringSchedulingIgnoredDuringExecution": [
+                                                            "list",
+                                                            [
+                                                              "object",
+                                                              {
+                                                                "labelSelector": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchLabels": [
+                                                                      "map",
+                                                                      "string"
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "matchLabelKeys": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "mismatchLabelKeys": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "namespaceSelector": [
+                                                                  "object",
+                                                                  {
+                                                                    "matchExpressions": [
+                                                                      "list",
+                                                                      [
+                                                                        "object",
+                                                                        {
+                                                                          "key": "string",
+                                                                          "operator": "string",
+                                                                          "values": [
+                                                                            "list",
+                                                                            "string"
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    ],
+                                                                    "matchLabels": [
+                                                                      "map",
+                                                                      "string"
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "namespaces": [
+                                                                  "list",
+                                                                  "string"
+                                                                ],
+                                                                "topologyKey": "string"
+                                                              }
+                                                            ]
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "imagePullSecrets": [
+                                                    "list",
+                                                    [
+                                                      "object",
+                                                      {
+                                                        "name": "string"
+                                                      }
+                                                    ]
+                                                  ],
+                                                  "nodeSelector": [
+                                                    "map",
+                                                    "string"
+                                                  ],
+                                                  "priorityClassName": "string",
+                                                  "securityContext": [
+                                                    "object",
+                                                    {
+                                                      "fsGroup": "number",
+                                                      "fsGroupChangePolicy": "string",
+                                                      "runAsGroup": "number",
+                                                      "runAsNonRoot": "bool",
+                                                      "runAsUser": "number",
+                                                      "seLinuxOptions": [
+                                                        "object",
+                                                        {
+                                                          "level": "string",
+                                                          "role": "string",
+                                                          "type": "string",
+                                                          "user": "string"
+                                                        }
+                                                      ],
+                                                      "seccompProfile": [
+                                                        "object",
+                                                        {
+                                                          "localhostProfile": "string",
+                                                          "type": "string"
+                                                        }
+                                                      ],
+                                                      "supplementalGroups": [
+                                                        "list",
+                                                        "number"
+                                                      ],
+                                                      "sysctls": [
+                                                        "list",
+                                                        [
+                                                          "object",
+                                                          {
+                                                            "name": "string",
+                                                            "value": "string"
+                                                          }
+                                                        ]
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "serviceAccountName": "string",
+                                                  "tolerations": [
+                                                    "list",
+                                                    [
+                                                      "object",
+                                                      {
+                                                        "effect": "string",
+                                                        "key": "string",
+                                                        "operator": "string",
+                                                        "tolerationSeconds": "number",
+                                                        "value": "string"
+                                                      }
+                                                    ]
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "serviceType": "string"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "selector": [
+                                    "object",
+                                    {
+                                      "dnsNames": [
+                                        "list",
+                                        "string"
+                                      ],
+                                      "dnsZones": [
+                                        "list",
+                                        "string"
+                                      ],
+                                      "matchLabels": [
+                                        "map",
+                                        "string"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          ]
+                        }
+                      ],
+                      "ca": [
+                        "object",
+                        {
+                          "crlDistributionPoints": [
+                            "list",
+                            "string"
+                          ],
+                          "issuingCertificateURLs": [
+                            "list",
+                            "string"
+                          ],
+                          "ocspServers": [
+                            "list",
+                            "string"
+                          ],
+                          "secretName": "string"
+                        }
+                      ],
+                      "selfSigned": [
+                        "object",
+                        {
+                          "crlDistributionPoints": [
+                            "list",
+                            "string"
+                          ]
+                        }
+                      ],
+                      "vault": [
+                        "object",
+                        {
+                          "auth": [
+                            "object",
+                            {
+                              "appRole": [
+                                "object",
+                                {
+                                  "path": "string",
+                                  "roleId": "string",
+                                  "secretRef": [
+                                    "object",
+                                    {
+                                      "key": "string",
+                                      "name": "string"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "clientCertificate": [
+                                "object",
+                                {
+                                  "mountPath": "string",
+                                  "name": "string",
+                                  "secretName": "string"
+                                }
+                              ],
+                              "kubernetes": [
+                                "object",
+                                {
+                                  "mountPath": "string",
+                                  "role": "string",
+                                  "secretRef": [
+                                    "object",
+                                    {
+                                      "key": "string",
+                                      "name": "string"
+                                    }
+                                  ],
+                                  "serviceAccountRef": [
+                                    "object",
+                                    {
+                                      "audiences": [
+                                        "list",
+                                        "string"
+                                      ],
+                                      "name": "string"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "tokenSecretRef": [
+                                "object",
+                                {
+                                  "key": "string",
+                                  "name": "string"
+                                }
+                              ]
+                            }
+                          ],
+                          "caBundle": "string",
+                          "caBundleSecretRef": [
+                            "object",
+                            {
+                              "key": "string",
+                              "name": "string"
+                            }
+                          ],
+                          "clientCertSecretRef": [
+                            "object",
+                            {
+                              "key": "string",
+                              "name": "string"
+                            }
+                          ],
+                          "clientKeySecretRef": [
+                            "object",
+                            {
+                              "key": "string",
+                              "name": "string"
+                            }
+                          ],
+                          "namespace": "string",
+                          "path": "string",
+                          "server": "string",
+                          "serverName": "string"
+                        }
+                      ],
+                      "venafi": [
+                        "object",
+                        {
+                          "cloud": [
+                            "object",
+                            {
+                              "apiTokenSecretRef": [
+                                "object",
+                                {
+                                  "key": "string",
+                                  "name": "string"
+                                }
+                              ],
+                              "url": "string"
+                            }
+                          ],
+                          "tpp": [
+                            "object",
+                            {
+                              "caBundle": "string",
+                              "caBundleSecretRef": [
+                                "object",
+                                {
+                                  "key": "string",
+                                  "name": "string"
+                                }
+                              ],
+                              "credentialsRef": [
+                                "object",
+                                {
+                                  "name": "string"
+                                }
+                              ],
+                              "url": "string"
+                            }
+                          ],
+                          "zone": "string"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "timeouts": [],
+            "wait": [],
+            "wait_for": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "managed",
+      "type": "kubernetes_manifest",
+      "name": "jupyterhub_ingress",
+      "provider": "module.https_automation.provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "computed_fields": null,
+            "field_manager": [],
+            "manifest": {
+              "value": {
+                "apiVersion": "networking.k8s.io/v1",
+                "kind": "Ingress",
+                "metadata": {
+                  "annotations": {
+                    "cert-manager.io/cluster-issuer": "letsencrypt-prod",
+                    "kubernetes.io/ingress.class": "nginx",
+                    "nginx.ingress.kubernetes.io/affinity": "cookie",
+                    "nginx.ingress.kubernetes.io/backend-protocol": "HTTP",
+                    "nginx.ingress.kubernetes.io/proxy-read-timeout": "600",
+                    "nginx.ingress.kubernetes.io/proxy-send-timeout": "600",
+                    "nginx.ingress.kubernetes.io/session-cookie-name": "route",
+                    "nginx.ingress.kubernetes.io/session-cookie-path": "/",
+                    "nginx.ingress.kubernetes.io/ssl-redirect": "true"
+                  },
+                  "name": "jupyterhub",
+                  "namespace": "jhub"
+                },
+                "spec": {
+                  "ingressClassName": "nginx",
+                  "rules": [
+                    {
+                      "host": "cloud.labberger.com",
+                      "http": {
+                        "paths": [
+                          {
+                            "backend": {
+                              "service": {
+                                "name": "proxy-public",
+                                "port": {
+                                  "number": 80
+                                }
+                              }
+                            },
+                            "path": "/",
+                            "pathType": "Prefix"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "tls": [
+                    {
+                      "hosts": [
+                        "cloud.labberger.com"
+                      ],
+                      "secretName": "jupyterhub-tls"
+                    }
+                  ]
+                }
+              },
+              "type": [
+                "object",
+                {
+                  "apiVersion": "string",
+                  "kind": "string",
+                  "metadata": [
+                    "object",
+                    {
+                      "annotations": [
+                        "object",
+                        {
+                          "cert-manager.io/cluster-issuer": "string",
+                          "kubernetes.io/ingress.class": "string",
+                          "nginx.ingress.kubernetes.io/affinity": "string",
+                          "nginx.ingress.kubernetes.io/backend-protocol": "string",
+                          "nginx.ingress.kubernetes.io/proxy-read-timeout": "string",
+                          "nginx.ingress.kubernetes.io/proxy-send-timeout": "string",
+                          "nginx.ingress.kubernetes.io/session-cookie-name": "string",
+                          "nginx.ingress.kubernetes.io/session-cookie-path": "string",
+                          "nginx.ingress.kubernetes.io/ssl-redirect": "string"
+                        }
+                      ],
+                      "name": "string",
+                      "namespace": "string"
+                    }
+                  ],
+                  "spec": [
+                    "object",
+                    {
+                      "ingressClassName": "string",
+                      "rules": [
+                        "tuple",
+                        [
+                          [
+                            "object",
+                            {
+                              "host": "string",
+                              "http": [
+                                "object",
+                                {
+                                  "paths": [
+                                    "tuple",
+                                    [
+                                      [
+                                        "object",
+                                        {
+                                          "backend": [
+                                            "object",
+                                            {
+                                              "service": [
+                                                "object",
+                                                {
+                                                  "name": "string",
+                                                  "port": [
+                                                    "object",
+                                                    {
+                                                      "number": "number"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "path": "string",
+                                          "pathType": "string"
+                                        }
+                                      ]
+                                    ]
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      ],
+                      "tls": [
+                        "tuple",
+                        [
+                          [
+                            "object",
+                            {
+                              "hosts": [
+                                "tuple",
+                                [
+                                  "string"
+                                ]
+                              ],
+                              "secretName": "string"
+                            }
+                          ]
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "object": {
+              "value": {
+                "apiVersion": "networking.k8s.io/v1",
+                "kind": "Ingress",
+                "metadata": {
+                  "annotations": {
+                    "cert-manager.io/cluster-issuer": "letsencrypt-prod",
+                    "kubernetes.io/ingress.class": "nginx",
+                    "nginx.ingress.kubernetes.io/affinity": "cookie",
+                    "nginx.ingress.kubernetes.io/backend-protocol": "HTTP",
+                    "nginx.ingress.kubernetes.io/proxy-read-timeout": "600",
+                    "nginx.ingress.kubernetes.io/proxy-send-timeout": "600",
+                    "nginx.ingress.kubernetes.io/session-cookie-name": "route",
+                    "nginx.ingress.kubernetes.io/session-cookie-path": "/",
+                    "nginx.ingress.kubernetes.io/ssl-redirect": "true"
+                  },
+                  "creationTimestamp": null,
+                  "deletionGracePeriodSeconds": null,
+                  "deletionTimestamp": null,
+                  "finalizers": null,
+                  "generateName": null,
+                  "generation": null,
+                  "labels": null,
+                  "managedFields": null,
+                  "name": "jupyterhub",
+                  "namespace": "jhub",
+                  "ownerReferences": null,
+                  "resourceVersion": null,
+                  "selfLink": null,
+                  "uid": null
+                },
+                "spec": {
+                  "defaultBackend": {
+                    "resource": {
+                      "apiGroup": null,
+                      "kind": null,
+                      "name": null
+                    },
+                    "service": {
+                      "name": null,
+                      "port": {
+                        "name": null,
+                        "number": null
+                      }
+                    }
+                  },
+                  "ingressClassName": "nginx",
+                  "rules": [
+                    {
+                      "host": "cloud.labberger.com",
+                      "http": {
+                        "paths": [
+                          {
+                            "backend": {
+                              "resource": {
+                                "apiGroup": null,
+                                "kind": null,
+                                "name": null
+                              },
+                              "service": {
+                                "name": "proxy-public",
+                                "port": {
+                                  "name": null,
+                                  "number": 80
+                                }
+                              }
+                            },
+                            "path": "/",
+                            "pathType": "Prefix"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "tls": [
+                    {
+                      "hosts": [
+                        "cloud.labberger.com"
+                      ],
+                      "secretName": "jupyterhub-tls"
+                    }
+                  ]
+                }
+              },
+              "type": [
+                "object",
+                {
+                  "apiVersion": "string",
+                  "kind": "string",
+                  "metadata": [
+                    "object",
+                    {
+                      "annotations": [
+                        "map",
+                        "string"
+                      ],
+                      "creationTimestamp": "string",
+                      "deletionGracePeriodSeconds": "number",
+                      "deletionTimestamp": "string",
+                      "finalizers": [
+                        "list",
+                        "string"
+                      ],
+                      "generateName": "string",
+                      "generation": "number",
+                      "labels": [
+                        "map",
+                        "string"
+                      ],
+                      "managedFields": [
+                        "tuple",
+                        [
+                          [
+                            "object",
+                            {
+                              "apiVersion": "string",
+                              "fieldsType": "string",
+                              "fieldsV1": "dynamic",
+                              "manager": "string",
+                              "operation": "string",
+                              "subresource": "string",
+                              "time": "string"
+                            }
+                          ]
+                        ]
+                      ],
+                      "name": "string",
+                      "namespace": "string",
+                      "ownerReferences": [
+                        "list",
+                        [
+                          "object",
+                          {
+                            "apiVersion": "string",
+                            "blockOwnerDeletion": "bool",
+                            "controller": "bool",
+                            "kind": "string",
+                            "name": "string",
+                            "uid": "string"
+                          }
+                        ]
+                      ],
+                      "resourceVersion": "string",
+                      "selfLink": "string",
+                      "uid": "string"
+                    }
+                  ],
+                  "spec": [
+                    "object",
+                    {
+                      "defaultBackend": [
+                        "object",
+                        {
+                          "resource": [
+                            "object",
+                            {
+                              "apiGroup": "string",
+                              "kind": "string",
+                              "name": "string"
+                            }
+                          ],
+                          "service": [
+                            "object",
+                            {
+                              "name": "string",
+                              "port": [
+                                "object",
+                                {
+                                  "name": "string",
+                                  "number": "number"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "ingressClassName": "string",
+                      "rules": [
+                        "list",
+                        [
+                          "object",
+                          {
+                            "host": "string",
+                            "http": [
+                              "object",
+                              {
+                                "paths": [
+                                  "list",
+                                  [
+                                    "object",
+                                    {
+                                      "backend": [
+                                        "object",
+                                        {
+                                          "resource": [
+                                            "object",
+                                            {
+                                              "apiGroup": "string",
+                                              "kind": "string",
+                                              "name": "string"
+                                            }
+                                          ],
+                                          "service": [
+                                            "object",
+                                            {
+                                              "name": "string",
+                                              "port": [
+                                                "object",
+                                                {
+                                                  "name": "string",
+                                                  "number": "number"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "path": "string",
+                                      "pathType": "string"
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      ],
+                      "tls": [
+                        "list",
+                        [
+                          "object",
+                          {
+                            "hosts": [
+                              "list",
+                              "string"
+                            ],
+                            "secretName": "string"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "timeouts": [],
+            "wait": [],
+            "wait_for": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "managed",
+      "type": "linode_domain_record",
+      "name": "jupyterhub_a_record",
+      "provider": "provider[\"registry.terraform.io/linode/linode\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "domain_id": 3265537,
+            "id": "39638216",
+            "name": "cloud",
+            "port": 0,
+            "priority": 0,
+            "protocol": "",
+            "record_type": "A",
+            "service": "",
+            "tag": "",
+            "target": "172.238.180.194",
+            "ttl_sec": 300,
+            "weight": 0
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.https_automation.data.kubernetes_service.nginx_lb",
+            "module.https_automation.data.linode_domain.selected"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "install_cert_manager_crds",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "1069285458628332010",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.https_automation",
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "patch_ingressclass_nginx",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "6658010916851854728",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.jupyterhub",
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "jupyterhub",
+      "provider": "provider[\"registry.terraform.io/hashicorp/helm\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "jupyterhub",
+            "cleanup_on_fail": false,
+            "create_namespace": true,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "jhub",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "5.2.1",
+                "chart": "jupyterhub",
+                "first_deployed": 1749688731,
+                "last_deployed": 1749688731,
+                "name": "jhub",
+                "namespace": "jhub",
+                "notes": "\n.      __                          __                  __  __          __\n      / / __  __  ____    __  __  / /_  ___    _____  / / / / __  __  / /_\n __  / / / / / / / __ \\  / / / / / __/ / _ \\  / ___/ / /_/ / / / / / / __ \\\n/ /_/ / / /_/ / / /_/ / / /_/ / / /_  /  __/ / /    / __  / / /_/ / / /_/ /\n\\____/  \\__,_/ / .___/  \\__, /  \\__/  \\___/ /_/    /_/ /_/  \\__,_/ /_.___/\n              /_/      /____/\n\n       You have successfully installed the official JupyterHub Helm chart!\n\n### Installation info\n\n  - Kubernetes namespace: jhub\n  - Helm release name:    jhub\n  - Helm chart version:   4.1.0\n  - JupyterHub version:   5.2.1\n  - Hub pod packages:     See https://github.com/jupyterhub/zero-to-jupyterhub-k8s/blob/4.1.0/images/hub/requirements.txt\n\n### Followup links\n\n  - Documentation:  https://z2jh.jupyter.org\n  - Help forum:     https://discourse.jupyter.org\n  - Social chat:    https://gitter.im/jupyterhub/jupyterhub\n  - Issue tracking: https://github.com/jupyterhub/zero-to-jupyterhub-k8s/issues\n\n### Post-installation checklist\n\n  - Verify that created Pods enter a Running state:\n\n      kubectl --namespace=jhub get pod\n\n    If a pod is stuck with a Pending or ContainerCreating status, diagnose with:\n\n      kubectl --namespace=jhub describe pod \u003cname of pod\u003e\n\n    If a pod keeps restarting, diagnose with:\n\n      kubectl --namespace=jhub logs --previous \u003cname of pod\u003e\n\n\n  - Verify web based access:\n\n    You have not configured a k8s Ingress resource so you need to access the k8s\n    Service proxy-public directly.\n\n    If your computer is outside the k8s cluster, you can port-forward traffic to\n    the k8s Service proxy-public with kubectl to access it from your\n    computer.\n\n      kubectl --namespace=jhub port-forward service/proxy-public 8080:http\n\n    Try insecure HTTP access: http://localhost:8080\n\n",
+                "revision": 1,
+                "values": "{\"cull\":{\"enabled\":true,\"every\":300,\"timeout\":3600},\"hub\":{\"config\":{\"Authenticator\":{\"admin_users\":[\"schafferde\",\"brandonholcombe\",\"schafferde\"],\"allowed_users\":[\"brandonholcombe\"],\"enable_auth_state\":true},\"GitHubOAuthenticator\":{\"client_id\":\"Ov23li1pPGjOpylHFyWw\",\"client_secret\":\"82ea715bf561a3d519e86da821ac841d1505b77e\",\"oauth_callback_url\":\"https://cloud.labberger.com/hub/oauth_callback\",\"orgWhitelist\":[\"your-org-name\"],\"teamWhitelist\":[\"your-org-name/team-ml101\",\"your-org-name/team-research\"]},\"JupyterHub\":{\"admin_access\":true,\"authenticator_class\":\"github\",\"cookie_options\":{\"sameSite\":\"None\",\"secure\":true},\"cookie_secret_file\":\"/srv/jupyterhub_cookie_secret\"}}},\"proxy\":{\"secretToken\":\"87a4bf51bd4462e47bcc518987c4c13c60b1cd6d41d80a5fb03cfc2192d5ee90\",\"service\":{\"type\":\"ClusterIP\"}},\"singleuser\":{\"extraPodConfig\":{\"dnsConfig\":{\"searches\":[\"default.svc.cluster.local\",\"svc.cluster.local\",\"cluster.local\"]}},\"profileList\":[{\"default\":true,\"description\":\"Standard environment (no GPU)\",\"display_name\":\"CPU Notebook\",\"kubespawner_override\":{\"cpu_limit\":1,\"image\":\"jupyter/scipy-notebook:latest\",\"mem_limit\":\"2G\"}},{\"description\":\"Notebook with 1x GPU access (RTX 4000)\",\"display_name\":\"Direct GPU Access\",\"kubespawner_override\":{\"cpu_limit\":3,\"extra_resource_limits\":{\"nvidia.com/gpu\":1},\"image\":\"jupyter/scipy-notebook:latest\",\"mem_limit\":\"14G\",\"node_selector\":{\"accelerator\":\"nvidia\"}}}],\"storage\":{\"extraVolumeMounts\":[{\"mountPath\":\"/shared\",\"name\":\"shared-storage\",\"readOnly\":false}],\"extraVolumes\":[{\"name\":\"shared-storage\",\"persistentVolumeClaim\":{\"claimName\":\"shared-dataset-pvc\"}}]}}}",
+                "version": "4.1.0"
+              }
+            ],
+            "name": "jhub",
+            "namespace": "jhub",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://jupyterhub.github.io/helm-chart",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 300,
+            "upgrade_install": null,
+            "values": [
+              "proxy:\n  secretToken: \"87a4bf51bd4462e47bcc518987c4c13c60b1cd6d41d80a5fb03cfc2192d5ee90\"\n  service:\n    type: ClusterIP\n\nsingleuser:\n  extraPodConfig:\n    dnsConfig:\n      searches:\n        - default.svc.cluster.local\n        - svc.cluster.local\n        - cluster.local\n  storage:\n    extraVolumes:\n      - name: shared-storage\n        persistentVolumeClaim:\n          claimName: shared-dataset-pvc\n\n    extraVolumeMounts:\n      - name: shared-storage\n        mountPath: /shared\n        readOnly: false\n \n  profileList:\n    - display_name: \"CPU Notebook\"\n      description: \"Standard environment (no GPU)\"\n      default: true\n      kubespawner_override:\n        image: jupyter/scipy-notebook:latest\n        cpu_limit: 1\n        mem_limit: 2G\n\n    - display_name: \"Direct GPU Access\"\n      description: \"Notebook with 1x GPU access (RTX 4000)\"\n      kubespawner_override:\n        image: jupyter/scipy-notebook:latest\n        cpu_limit: 3\n        mem_limit: 14G\n        extra_resource_limits:\n          nvidia.com/gpu: 1\n        node_selector:\n          accelerator: \"nvidia\"\n\ncull:\n  enabled: true\n  timeout: 3600\n  every: 300\n\nhub:\n  config:\n    JupyterHub:\n      admin_access: true\n      authenticator_class: github\n      cookie_secret_file: /srv/jupyterhub_cookie_secret\n      cookie_options:\n        sameSite: \"None\"\n        secure: True\n    Authenticator:\n      admin_users:\n        - schafferde\n        - brandonholcombe\n        - schafferde\n      allowed_users:\n        - brandonholcombe\n      enable_auth_state: true\n    GitHubOAuthenticator:\n      client_id: \"Ov23li1pPGjOpylHFyWw\"\n      client_secret: \"82ea715bf561a3d519e86da821ac841d1505b77e\"\n      oauth_callback_url: \"https://cloud.labberger.com/hub/oauth_callback\"\n      orgWhitelist:\n        - your-org-name\n      teamWhitelist:\n        - your-org-name/team-ml101\n        - your-org-name/team-research\n"
+            ],
+            "verify": false,
+            "version": "4.1.0",
+            "wait": true,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "values"
+              },
+              {
+                "type": "index",
+                "value": {
+                  "value": 0,
+                  "type": "number"
+                }
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "module": "module.jupyterhub",
+      "mode": "managed",
+      "type": "kubernetes_persistent_volume_claim",
+      "name": "shared_dataset",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "status": "tainted",
+          "schema_version": 0,
+          "attributes": {
+            "id": "jhub/shared-dataset-pvc",
+            "metadata": [
+              {
+                "annotations": null,
+                "generate_name": "",
+                "generation": 0,
+                "labels": null,
+                "name": "shared-dataset-pvc",
+                "namespace": "jhub",
+                "resource_version": "",
+                "uid": ""
+              }
+            ],
+            "spec": [
+              {
+                "access_modes": [
+                  "ReadWriteMany"
+                ],
+                "resources": [
+                  {
+                    "limits": null,
+                    "requests": {
+                      "storage": "90Gi"
+                    }
+                  }
+                ],
+                "selector": [],
+                "storage_class_name": "nfs-client",
+                "volume_mode": "",
+                "volume_name": ""
+              }
+            ],
+            "timeouts": null,
+            "wait_until_bound": true
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDB9fQ=="
+        }
+      ]
+    },
+    {
+      "module": "module.namespace",
+      "mode": "managed",
+      "type": "kubernetes_namespace",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "jhub",
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "jhub",
+                "resource_version": "564",
+                "uid": "fe63a6cc-18f0-4e8f-a901-816c5d2f4f7b"
+              }
+            ],
+            "timeouts": null,
+            "wait_for_default_service_account": false
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjozMDAwMDAwMDAwMDB9fQ=="
+        }
+      ]
+    },
+    {
+      "module": "module.nfs_rwx",
+      "mode": "data",
+      "type": "kubernetes_config_map",
+      "name": "nfs_ip",
+      "provider": "module.nfs_rwx.provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "binary_data": null,
+            "data": null,
+            "id": "jhub/nfs-ip-nfs-server",
+            "immutable": null,
+            "metadata": [
+              {
+                "annotations": {},
+                "generation": 0,
+                "labels": {},
+                "name": "nfs-ip-nfs-server",
+                "namespace": "jhub",
+                "resource_version": "",
+                "uid": ""
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.nfs_rwx",
+      "mode": "managed",
+      "type": "helm_release",
+      "name": "nfs_provisioner",
+      "provider": "module.nfs_rwx.provider[\"registry.terraform.io/hashicorp/helm\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "atomic": false,
+            "chart": "nfs-subdir-external-provisioner",
+            "cleanup_on_fail": false,
+            "create_namespace": false,
+            "dependency_update": false,
+            "description": null,
+            "devel": null,
+            "disable_crd_hooks": false,
+            "disable_openapi_validation": false,
+            "disable_webhooks": false,
+            "force_update": false,
+            "id": "nfs-subdir",
+            "keyring": null,
+            "lint": false,
+            "manifest": null,
+            "max_history": 0,
+            "metadata": [
+              {
+                "app_version": "4.0.2",
+                "chart": "nfs-subdir-external-provisioner",
+                "first_deployed": 1749696765,
+                "last_deployed": 1749696765,
+                "name": "nfs-subdir",
+                "namespace": "jhub",
+                "notes": "",
+                "revision": 1,
+                "values": "{\"nfs\":{\"path\":\"/exports\",\"server\":\"nfs-service.jhub.svc.cluster.local\"},\"storageClass\":{\"accessModes\":[\"ReadWriteMany\"],\"defaultClass\":true,\"mountOptions\":[\"vers=4.1\",\"nolock\"],\"name\":\"nfs-client\",\"reclaimPolicy\":\"Retain\",\"volumeBindingMode\":\"Immediate\"}}",
+                "version": "4.0.18"
+              }
+            ],
+            "name": "nfs-subdir",
+            "namespace": "jhub",
+            "pass_credentials": false,
+            "postrender": [],
+            "recreate_pods": false,
+            "render_subchart_notes": true,
+            "replace": false,
+            "repository": "https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/",
+            "repository_ca_file": null,
+            "repository_cert_file": null,
+            "repository_key_file": null,
+            "repository_password": null,
+            "repository_username": null,
+            "reset_values": false,
+            "reuse_values": false,
+            "set": [],
+            "set_list": [],
+            "set_sensitive": [],
+            "skip_crds": false,
+            "status": "deployed",
+            "timeout": 600,
+            "upgrade_install": null,
+            "values": [
+              "nfs:\n  server: \"nfs-service.jhub.svc.cluster.local\"\n  path: \"/exports\"\n\nstorageClass:\n  name: \"nfs-client\"\n  defaultClass: true\n  reclaimPolicy: Retain\n  accessModes: [\"ReadWriteMany\"]\n  volumeBindingMode: Immediate\n  mountOptions:\n    - vers=4.1\n    - nolock\n\n"
+            ],
+            "verify": false,
+            "version": "4.0.18",
+            "wait": false,
+            "wait_for_jobs": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "repository_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "module.nfs_rwx.kubernetes_service.nfs"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.nfs_rwx",
+      "mode": "managed",
+      "type": "kubernetes_service",
+      "name": "nfs",
+      "provider": "module.nfs_rwx.provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "schema_version": 1,
+          "attributes": {
+            "id": "jhub/nfs-service",
+            "metadata": [
+              {
+                "annotations": {},
+                "generate_name": "",
+                "generation": 0,
+                "labels": {},
+                "name": "nfs-service",
+                "namespace": "jhub",
+                "resource_version": "15200",
+                "uid": "a4f3a6c9-8143-40ac-b431-26e6de5e15b3"
+              }
+            ],
+            "spec": [
+              {
+                "allocate_load_balancer_node_ports": true,
+                "cluster_ip": "None",
+                "cluster_ips": [
+                  "None"
+                ],
+                "external_ips": [],
+                "external_name": "",
+                "external_traffic_policy": "",
+                "health_check_node_port": 0,
+                "internal_traffic_policy": "Cluster",
+                "ip_families": [
+                  "IPv4"
+                ],
+                "ip_family_policy": "SingleStack",
+                "load_balancer_class": "",
+                "load_balancer_ip": "",
+                "load_balancer_source_ranges": [],
+                "port": [
+                  {
+                    "app_protocol": "",
+                    "name": "nfs",
+                    "node_port": 0,
+                    "port": 2049,
+                    "protocol": "TCP",
+                    "target_port": "2049"
+                  }
+                ],
+                "publish_not_ready_addresses": false,
+                "selector": {
+                  "app": "nfs-server"
+                },
+                "session_affinity": "None",
+                "session_affinity_config": [],
+                "type": "ClusterIP"
+              }
+            ],
+            "status": [
+              {
+                "load_balancer": [
+                  {
+                    "ingress": []
+                  }
+                ]
+              }
+            ],
+            "timeouts": null,
+            "wait_for_load_balancer": true
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "module": "module.nfs_rwx",
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "wait_for_nfs_server_ready",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "3216590479071367169",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "module.nfs_rwx.kubernetes_persistent_volume_claim.nfs_data",
+            "module.nfs_rwx.kubernetes_pod.nfs_server"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

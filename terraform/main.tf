@@ -77,16 +77,6 @@ module "gpu_job_queue" {
   source        = "./modules/gpu_job_queue"
 }
 
-module "nfs_rwx" {
-  source                     = "./modules/nfs_rwx"
-  namespace                  = var.namespace
-  create_nfs_server          = true
-  nfs_server_storage_size    = "100Gi"
-  nfs_server_storage_class   = "linode-block-storage-retain"
-  storage_class_name         = "nfs-client"
-  kubeconfig_path            = var.kubeconfig_path
-}
-
 resource "null_resource" "label_gpu_nodes" {
   depends_on = [linode_lke_node_pool.gpu_pool]
 

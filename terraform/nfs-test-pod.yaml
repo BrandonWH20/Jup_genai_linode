@@ -1,0 +1,20 @@
+# nfs-test-pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nfs-test
+  namespace: jhub
+spec:
+  containers:
+  - name: tester
+    image: busybox
+    command: ["/bin/sh", "-c", "sleep 3600"]
+    volumeMounts:
+    - name: nfs
+      mountPath: /mnt
+  volumes:
+  - name: nfs
+    persistentVolumeClaim:
+      claimName: shared-nfs
+  restartPolicy: Never
+

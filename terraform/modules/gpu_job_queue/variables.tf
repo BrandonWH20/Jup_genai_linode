@@ -7,5 +7,5 @@ variable "namespace" {
 variable "shared_pvc_name" {
   description = "The name of the shared PersistentVolumeClaim used by all job-related pods"
   type        = string
-  default     = "shared-dataset-pvc"
+  default     = "shared-nfs"
 }
